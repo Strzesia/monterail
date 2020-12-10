@@ -1,0 +1,16 @@
+AllCops:
+  DisplayCopNames: true
+  NewCops: enable
+  TargetRubyVersion: 2.7
+  Exclude:
+    - 'db/**/*'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+    - 'bin/**/*'
+    - 'log/**/*'
+    - 'node_modules/**/*'
+Style/Documentation:
+  Enabled: false
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
